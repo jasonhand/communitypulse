@@ -4,6 +4,16 @@
             "route": "/circleci",
             "redirect": "https://circleci.com/signup",
             "statusCode": 301
+        },
+        {
+            "route": "/ibmdeveloper",
+            "redirect": "https://developer.ibm.com",
+            "statusCode": 301   
+        },
+        {
+            "route": "/devada",
+            "redirect": "https://devada.com/answerhub/?utm_source=podcast&utm_medium=banner&utm_campaign=sept_sponsor",
+            "statusCode": 301   
         }
     ]
 }
