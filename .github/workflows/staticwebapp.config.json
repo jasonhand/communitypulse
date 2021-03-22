@@ -2,7 +2,7 @@
     "routes":[
         {
             "route": "/matty",
-            "redirect": "https://www.google.com",
+            "redirect": "/about",
             "statusCode": 301
         }
     ]
