@@ -1,8 +1,8 @@
 {
     "routes":[
         {
-            "route": "/matty",
-            "redirect": "https://www.google.com",
+            "route": "/circleci",
+            "redirect": "https://circleci.com/signup",
             "statusCode": 301
         }
     ]
