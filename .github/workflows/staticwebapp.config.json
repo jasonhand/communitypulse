@@ -1,0 +1,9 @@
+{
+    "routes":[
+        {
+            "route": "/matty",
+            "redirect": "https://www.google.com",
+            "statusCode": 301
+        }
+    ]
+}
