@@ -1,0 +1,121 @@
+BaseURL = "https://www.communitypulse.io/"
+languageCode = "en-us"
+title = "Community Pulse"
+theme = "castanet"
+canonifyurls = false
+buildFuture = false
+buildDrafts = false
+dataDir = "data"
+# disqusShortname = "communitypulse"
+archetypedir = "archetypes"
+paginate = 9
+googleAnalytics = "UA-113313834-4"
+
+[permalinks]
+	page = "/:filename/"
+	about = "/:filename/"
+	episode = "/:filename/"
+	sponsor = "/:filename/"
+	redirect = "/:filename/"
+
+# The theme supports menus with up to one submenu per menu item
+# The menu name must be "Main"
+# The menus are sorted based upon their identifier
+# [menu]
+ [[menu.main]]
+     name = "About"
+     identifier = "about"
+     url = "/about"
+ [[menu.main]]
+    name = "Contact"
+    identifier = "contact"
+    url = "/contact"
+ [[menu.main]]
+    name = "Guests"
+    identifier = "guests"
+    url = "/guest"
+
+[params]
+mainSections = ["episode"]
+site_theme = "grey"
+site_layout = "row"
+enable_jumbo = "no"
+favicon = "favicon.ico"
+copyright_notice = "Copyright 2015-2021 [Community Pulse](https://www.communitypulse.io)"
+itunes_subscribe = "https://itunes.apple.com/us/podcast/community-pulse/id1218368182?mt=2"
+android_subscribe = "https://www.subscribeonandroid.com/communitypulse.libsyn.com/rss"
+google_play_subscribe = "https://play.google.com/music/m/I6f2bjfqvy6aa2pk5wtzm4rcyh4?t=Community_Pulse"
+stitcher_subscribe = "https://www.stitcher.com/podcast/community-pulse"
+spotify_subscribe = "https://open.spotify.com/show/3I7g5W9fMSgpWu38zZMjet?si=D0lKBrnnS7mAU20i-V2v2g"
+rss_subscribe = "http://communitypulse.libsyn.com/rss" #only set this if you don't want to use the built-in feed
+
+Description = "Community Pulse is the spot for Developer Relations and Community professionals who are looking for information on building technical communities. Community Builders and DevRel veterans Jason Hand, Mary Thengvall, PJ Hagerty, and Sarah-Jane Morris interview experts in the field of Developer Relations and Community Leadership on a broad range of topics related to building community."
+  [params.feed]
+    feed_copyright = "Copyright 2015-2019 Community Pulse" #do not use markdown in this field; it is used in the feed
+    #itunes_subtitle = "There's always DevOps in the Banana Stand" #no markdown or HTML
+    itunes_author = "PJ Hagerty, Jason Hand, Mary Thengvall, Wesley Faulkner, and Sarah-Jane Morris" #no markdown or HTML
+    itunes_summary = "Community Pulse is the spot for Developer Relations and Community professionals who are looking for information on building technical communities. Community Builders and DevRel veterans Jason Hand, Mary Thengvall, PJ Hagerty, and Sarah-Jane Morris interview experts in the field of Developer Relations and Community Leadership on a broad range of topics related to building community." # Limited to 4000 characters or less, plain text, no HTML
+    itunes_owner_name = "Mary Thengvall"
+    itunes_owner_email = "mary@persea-consulting.com" #contains the e-mail address that will be used to contact the owner of the Podcast for communication specifically about their Podcast on iTunes. It will not be publicly displayed on iTunes.
+    itunes_image = "/img/communitypulse-logo.png" #fqdn to the image art for your podcast
+    itunes_top_category = "Technology"
+    itunes_first_sub_category = "Software How-To"
+    itunes_second_sub_category = "Tech News"
+
+  [params.social]
+    github = "mary-grace/community-pulse-source"
+    # facebook = ""
+    # facebook_admin = ""  # This needs to be a page admin to get domain insights
+    twitter = "community_pulse"
+    twitter_domain = "https://communitypulse.io/" # This domain shows in twitter cards as "View on `twitter_domain`"
+    # googleplus = ""
+    # pinterest = ""
+    # instagram = ""
+    # youtube = "channel/UC3Mt417XSjzsIgekPWinKiw"
+
+	[params.authors]
+
+	    [params.authors.WF]
+			name = "Wesley Faulkner"
+			thumbnail = "img/wfaulkner.jpeg"
+			bio = "Coming ..."
+			[params.authors.WF.social]
+				github = "wesley83"
+				twitter = "wesley83"
+				homepage = "https://communitypulse.io/"
+
+	    [params.authors.Mary]
+			name	= "Mary Thengvall"
+			thumbnail = "img/mary.jpg"
+			bio = "Mary Thengvall is a connector of people at heart, both personally and professionally. She loves digging into the strategy of how to build and foster developer communities and has been doing so for over 10 years. In addition to her work, she's known for being \"the one with the dog,\" thanks to her ever-present medical alert service dog [Ember](https://twitter.com/ember_dog). She's also the author of the first book on Developer Relations: [The Business Value of Developer Relations](https://amzn.to/2PGl9gJ) ((c) 2018, Apress)"
+			[params.authors.Mary.social]
+				github = "mary-grace"
+				twitter = "mary_grace"
+				homepage = "https://marythengvall.com"
+
+	    [params.authors.PJ]
+			name = "PJ Hagerty"
+			thumbnail = "img/pj.jpg"
+			bio = "Developer, writer, speaker, musician, and Founder of DevRelate.io, PJ is known to travel the world speaking about programming and the way people think and interact. Traveling to conferences and meet ups around the world, PJ likes to spread the word on the importance of community and coding, stressing the importance of outreach and focusing on the human side of being a coder. He is also known for wearing hats."
+			[params.authors.PJ.social]
+				github = "aspleenic"
+				twitter = "aspleenic"
+				homepage = "http://devrelate.io"
+
+		[params.authors.SJ]
+			name = "Sarah-Jane Morris"
+			thumbnail = "img/sjmorris.jpg"
+			bio = "For the past 15 years, Sarah-Jane Morris has been growing and nurturing developer communities at various stages of growth; at startups like Context IO and Keen IO, at high growth companies like Shopify, and at corporations like Intel. SJ’s audacious vision to make every developer community diverse, welcoming and sustainable inspired her to launch [Listen Community Consulting](http://listen.community/) in 2019. Alongside Listen, she joined HubSpot’s Developer Relations team as a Senior Program Manager in November 2019."
+			[params.authors.SJ.social]
+				github = "SarahJaneMorris"
+				twitter = "SarahJaneMorris"
+				homepage = "https://listen.community/"
+
+		[params.authors.Jason]
+			name = "Jason Hand"
+			thumbnail = "img/jhand.jpg"
+			bio = "Senior Cloud Ops Advocate at Microsoft. Jason Hand writes, presents, and coaches on the principles and nuance of DevOps, Site Reliability Engineering, and modern incident management practices. Named \"DevOps Evangelist of the Year\" by DevOps.com in 2016, Jason recently authored a new book on the topic of Site Reliability Engineering. In addition to SRE, Jason has authored books with O’Reilly Media on the subject of post-incident reviews and Chatops. DevOpsDays Rockies organizer and host of the Front-range Site Reliability Meetup, Jason is dedicated to the latest trends in technology, sharing the lessons learned, and helping people continuously improve their IT and software development practices."
+			[params.authors.Jason.social]
+				github = "jasonhand"
+				twitter = "jasonhand"
+				homepage = "https://jasonhand.com"
