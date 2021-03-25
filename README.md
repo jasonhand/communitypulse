@@ -2,4 +2,4 @@
 
 Brand spanking new repo for [communitypulse.io](https://www.communitypulse.io)
 
-New instructions coming soon.
+New instructions coming soon. Stay tuned.
