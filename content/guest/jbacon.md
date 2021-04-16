@@ -8,9 +8,9 @@ Facebook = "https://www.facebook.com/jonobacon"
 Linkedin = "https://www.linkedin.com/in/jonobacon"
 Pronouns = ""
 GitHub = ""
-Thumbnail = "img/guests/jbacon.jpg"
+Thumbnail = "img/guests/jbacon2.png"
 Pinterest = ""
-Instagram = ""
-YouTube = ""
+Instagram = "jonobacongram"
+YouTube = "jonobacon"
 +++
-Jono Bacon is a leading community manager, speaker, author, and podcaster. He is the founder of Jono Bacon Consulting which provides community strategy/execution, developer workflow, and other services. He also previously served as director of community at GitHub, Canonical, XPRIZE, OpenAdvantage. His clients include Huawei, GitLab, Microsoft, Sony Mobile, Deutsche Bank, HackerOne, Mattermost, SAP, data.world, Creative Commons, and others. He is the author of the critically-acclaimed The Art of Community, is a columnist for Forbes and opensource.com, founder of the Community Leadership Summit, and co-founder of the Bad Voltage and LugRadio podcasts.
+Jono Bacon is a community strategy consultant, author, and speaker. He is the author of ‘People Powered’ and ‘The Art of Community’
