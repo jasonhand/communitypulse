@@ -1,6 +1,6 @@
 +++
 title = "Online Community Platforms"
-Description = "Creating a place for your specific community to gather online is a challenge every Developer Relations or Community team is likely going to address at some point, whether it’s because your executive team is asking you to create this space or you see a need for it. In this episode of Community Pulse, we talk to two specialists in the community industry about what to keep in mind when evaluating how to create a place for your community to gather online. "
+Description = "Creating a place for your specific community to gather online is a challenge every Developer Relations or Community team is likely going to address at some point, whether it’s because your executive team is asking you to create this space or you see a need for it. In this episode of Community Pulse, we talk to two specialists in the community industry about what to keep in mind when evaluating how to create a place for your community to gather online."
 date = 2021-04-16
 podcast_file = "https://traffic.libsyn.com/secure/communitypulse/Community_Pulse_-_Online_Community_Platforms_-_April_16th.mp3"
 episode = "58-online-community-platforms"
