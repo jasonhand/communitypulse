@@ -10,7 +10,6 @@ aliases = ["/58-online-community-platforms"]
 episode_image = "/img/episode/58-online-community-platforms.jpg"
 episode_banner = "/img/episode/58-online-community-platforms-banner.jpg"
 sponsors = ["circleci"]
-youtube = "dBA6XNIEKJ4"
 draft = false
 +++
 
