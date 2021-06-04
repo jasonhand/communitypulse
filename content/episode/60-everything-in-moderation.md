@@ -10,7 +10,7 @@ aliases = ["/60-everything-in-moderation"]
 episode_image = "/img/episode/60-everything-in-moderation.jpg"
 episode_banner = "/img/episode/60-everything-in-moderation-banner.jpg"
 sponsors = ["circleci"]
-draft = true
+draft = false
 +++
 
 ### Check Outs
