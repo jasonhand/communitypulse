@@ -9,7 +9,7 @@ guests = ["jmatthews", "gsutcliffe"]
 aliases = ["/62-devrel-salary-survey-results"]
 episode_image = "/img/episode/62-devrel-salary-survey-results.jpg"
 episode_banner = "/img/episode/62-devrel-salary-survey-results-banner.jpg"
-draft = true
+draft = false
 +++
 
 [DevRel Collective 2021 Salary Survey Results](https://dev.to/bffjossy/2021-devrel-salary-survey-results-table-of-contents-43fe)
