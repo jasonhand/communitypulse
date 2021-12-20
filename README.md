@@ -1,5 +1,5 @@
 # Communitypulse.io
 
-Brand spanking new repo for [communitypulse.io](https://www.communitypulse.io)
+This repo has been deprecated as the Community Pulse now uses fireside.fm for hosting of the site and podcast metrics.
 
-New instructions coming soon. Stay tuned
+
